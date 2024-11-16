@@ -1,0 +1,19 @@
+[project]
+name = "sm-ms-python"
+version = "0.1.0"
+description = "sm.ms API for python."
+authors = [
+    {name = "pu-007", email = "pu.007@qq.com"},
+]
+dependencies = ["requests>=2.32.3"]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
